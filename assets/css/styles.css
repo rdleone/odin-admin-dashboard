@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(195, 195, 195);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 80px 128px 5fr 5fr;
+    grid-template-columns: minmax(min-content, 1fr) 5fr;
+}
+
+.header,
+.actions {
+    background-color: white;
+    grid-column: 2 / -1;
+    display: grid;
+}
+
+.header {
+    grid-template-columns: 3fr 1fr;
+}
+
+.actions {
+    grid-template-columns: 3fr 2fr;
+}
+
+.search,
+.profile {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 12px;
+}
+
+.search {
+    grid-template-columns: 1fr 5fr;
+}
+
+.profile {
+    grid-template-columns: 1fr 1fr 3fr;
+}
+
+.banner,
+.action-btn-container {
+    display: grid;
+    align-items: center;
+}
+
+.banner {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 3fr;
+    padding: 8px;
+}
+
+.action-btn-container {
+    padding: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.nav-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.nav-icon-large {
+    width: 40px;
+    height: 40px;
+}
+
+.content {
+    display: grid;
+    /* grid-template-columns: 5fr minmax(300px, 1fr);  */
+    grid-template-columns: 5fr min-content;
+}
+
+.section-title {
+    grid-column: 1 / -1;
+    margin-bottom: 8px;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: min-content;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
+    gap: 16px;
+    margin: 16px;
+}
+
+.card {
+    background-color: white;
+    padding: 24px;
+    margin: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px #e4e4e4;
+    display: grid;
+}
+
+.project-card {
+    height: 200px;
+    width: 300px;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+
+.card > *,
+.project-card > * {
+    margin: 0;
+}
+
+.card .card-actions,
+.project-card .card-actions {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+    display: flex;
+}
+
+.notices {
+    margin: 1rem;
+}
+
+#search-bar {
+    background-color: rgb(205, 205, 205);
+    border: none;
+    border-radius: 1rem;
+    width: 75%;
+    height: 33%;
+    padding: 1rem;
+}
+
+#profile-icon-header {
+    width: 40px;
+    height: 40px;
+}
+
+#profile-icon-banner {
+    grid-row: 1 / -1;
+    width: 80px;
+    height: 80px;
+}

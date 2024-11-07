@@ -1,0 +1,35 @@
+/*** BUTTONS ***/
+
+button {
+    border: none;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.action-btn {
+    background-color: purple;
+    color: white;
+    font-size: 14px;
+    margin: 8px;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 16px;
+    min-width: 128px;
+}
+
+.action-btn:hover {
+    background-color: rgb(105, 0, 105);
+}
+
+#search-btn {
+    background-image: url('/assets/svg/search.svg');
+    width: 24px;
+    height: 24px;
+}
+
+#notifications {
+    background-image: url('/assets/svg/notification.svg');
+    width: 24px;
+    height: 24px;
+}

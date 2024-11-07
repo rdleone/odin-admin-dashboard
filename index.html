@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/sidebar.css">
+    <link rel="stylesheet" href="/assets/css/buttons.css">
+    <title>Project: Admin Dashboard</title>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="search">
+            <button id="search-btn"></button>
+            <input id="search-bar" type="search">
+        </div>
+        <div class="profile">
+            <button id="notifications"></button>
+            <img id="profile-icon-header" src="./assets/svg/profile.svg">
+            <h3 id="profile-name">Robert Leone</h3>
+        </div>
+    </div>
+    <div class="actions">
+        <div class="banner">
+            <img id="profile-icon-banner" src="./assets/svg/profile.svg">
+            <p>Hi there,</p>
+            <h2>Robert Leone</h4>
+        </div>
+        <div class="action-btn-container">
+            <button id="new" class="action-btn">New</button>
+            <button id="upload" class="action-btn">Upload</button>
+            <button id="share" class="action-btn">Share</button>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-logo">
+            <div class="sidebar-el">
+                <img class="nav-icon nav-icon-large" src="./assets/svg/view-dashboard.svg" />
+                <h1 id="dashboard-text">Dashboard</h1>
+            </div>
+        </div>
+        <div class="sidebar-links">
+            <div class="sidebar-el">
+                <img class="nav-icon" src="./assets/svg/home.svg" />
+                <h2 id="home-text">Home</h2>
+            </div>
+            <div class="sidebar-el">
+                <img class="nav-icon" src="./assets/svg/card-account-details-outline.svg" />
+                <h2 id="profile-text">Profile</h2>
+            </div>
+            <div class="sidebar-el">
+                <img class="nav-icon" src="./assets/svg/chat.svg" />
+                <h2 id="messages-text">Messages</h2>
+            </div>
+            <div class="sidebar-el">
+                <img class="nav-icon" src="./assets/svg/clock-time-four.svg" />
+                <h2 id="history-text">History</h2>
+            </div>
+            <div class="sidebar-el">
+                <img class="nav-icon" src="./assets/svg/file-multiple.svg" />
+                <h2 id="tasks-text">Tasks</h2>
+            </div>
+            <div class="sidebar-el">
+                <img class="nav-icon" src="./assets/svg/account-group.svg" />
+                <h2 id="communities-text">Communities</h2>
+            </div>
+        </div>
+        <div class="sidebar-settings">
+            <div class="sidebar-el">
+                <img class="nav-icon" src="./assets/svg/cog.svg" />
+                <h2 id="settings-text">Settings</h2>
+            </div>
+            <div class="sidebar-el">
+                <img class="nav-icon" src="./assets/svg/help-box.svg" />
+                <h2 id="support-text">Support</h2>
+            </div>
+            <div class="sidebar-el">
+                <img class="nav-icon" src="./assets/svg/shield-check.svg" />
+                <h2 id="privacy-text">Privacy</h2>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="projects">
+            <h2 class="section-title">Your Projects</h2>
+            <div class="card project-card">
+                <h3>Super Cool Project</h3>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Fermentum tincidunt eu aliquet morbi magna tincidunt. Vel litora hendrerit dignissim tempor primis hendrerit class fames. Aliquet felis sagittis massa class cubilia in faucibus sodales. Interdum at sit facilisi in justo imperdiet mi.</p>
+                <div class="card-actions">
+                    <svg></svg>
+                    <svg></svg>
+                    <svg></svg>
+                </div>
+            </div>
+            <div class="card project-card">
+                <h3>Less Cool Project</h3>
+                <p>Tortor placerat venenatis non a velit facilisi aptent. Ut nisi suspendisse, nulla et commodo molestie. Est finibus curabitur per dictumst cras. Quisque cubilia fames tortor pulvinar massa volutpat per.</p>
+                <div class="card-actions">
+                    <svg></svg>
+                    <svg></svg>
+                    <svg></svg>
+                </div>
+            </div>
+            <div class="card project-card">
+                <h3>Impossible App</h3>
+                <p>Ac posuere est placerat habitasse ac metus. Ac class laoreet natoque risus per laoreet parturient. Ultrices per duis convallis nostra ad pellentesque commodo metus. Amet tellus eros turpis lectus eu fermentum turpis lacinia sem.</p>
+                <div class="card-actions">
+                    <svg></svg>
+                    <svg></svg>
+                    <svg></svg>
+                </div>
+            </div>
+            <div class="card project-card">
+                <h3>Easy Peasy App</h3>
+                <p>Nulla ipsum ligula urna justo gravida pulvinar, facilisis lobortis. Commodo cursus sollicitudin ad tortor elit nascetur sed eros dictum. Inceptos morbi praesent elementum himenaeos ultrices, risus eu. Ullamcorper consequat feugiat netus; metus nascetur consequat curae est.</p>
+                <div class="card-actions">
+                    <svg></svg>
+                    <svg></svg>
+                    <svg></svg>
+                </div>
+            </div>
+            <div class="card project-card">
+                <h3>Ad Blocker</h3>
+                <p>Justo eu euismod elementum vel, augue facilisi sem eget. Cras interdum gravida egestas ultricies nisl sem eros. Torquent dis suspendisse etiam hac praesent volutpat mattis per. Massa euismod mollis habitant malesuada nec dui torquent nec. Ornare id blandit porta parturient ornare.</p>
+                <div class="card-actions">
+                    <svg></svg>
+                    <svg></svg>
+                    <svg></svg>
+                </div>
+            </div>
+            <div class="card project-card">
+                <h3>Money Maker</h3>
+                <p>Dolor ultricies ante sollicitudin sollicitudin tempor odio parturient nullam sociosqu. Efficitur fusce a egestas auctor non. Est inceptos dignissim maximus fames dolor orci aliquam tortor. Pretium dapibus litora habitant ligula facilisis.</p>
+                <div class="card-actions">
+                    <svg></svg>
+                    <svg></svg>
+                    <svg></svg>
+                </div>
+            </div>
+        </div>
+        <div class="notices">
+            <div class="announcements">
+                <h2 class="section-title">Announcements</h2>
+                <div class="card announcements-card">
+                    <h4>Site Maintenance</h4>
+                    <p>The site will be down from 21:00-22:00 on June 31st.</p>
+                </div>
+            </div>
+            <div class="trending">
+                <h2 class="section-title">Trending</h2>
+                <div class="card trending-card">
+                    <h4>He won!</h4>
+                    <p>Baby Gronk wins the 2024 election?!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

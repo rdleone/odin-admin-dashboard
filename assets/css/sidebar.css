@@ -1,0 +1,28 @@
+/*  =======================================================
+        SIDEBAR
+    ======================================================= */
+
+.sidebar {
+    background-color: purple;
+    padding: 1rem;
+    grid-row: 1 / -1;
+}
+
+.sidebar-logo,
+.sidebar-links,
+.sidebar-settings {
+    padding-bottom: 2rem;
+}
+
+.sidebar-el {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sidebar-el h1,
+.sidebar-el h2 {
+    color: white;
+}
